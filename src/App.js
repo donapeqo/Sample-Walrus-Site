@@ -13,10 +13,10 @@ function App() {
     }}>
       <header className="App-header">
         <h1 style={{ fontSize: '3rem' }}>
-          Hello, World!
+          Welcome to Donapeqo's first walrus site.
         </h1>
         <p>
-          Welcome to my first React app.
+          Sui World. ZenCrypto.
         </p>
       </header>
     </div>
