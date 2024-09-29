@@ -1,25 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      height: '100vh',
+      backgroundColor: '#282c34',
+      color: 'white',
+      fontFamily: 'Arial, sans-serif'
+    }}>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1 style={{ fontSize: '3rem' }}>
+          Hello, World!
+        </h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to my first React app.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
 }
+
 
 export default App;
