@@ -1,26 +1,13 @@
-import './App.css';
+import './index.css';
+import SuiGuide from './SuiGuide';
 
 function App() {
   return (
-    <div className="App" style={{
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      height: '100vh',
-      backgroundColor: '#282c34',
-      color: 'white',
-      fontFamily: 'Arial, sans-serif'
-    }}>
-      <header className="App-header">
-        <h1 style={{ fontSize: '3rem' }}>
-          Welcome to Donapeqo's first walrus site.
-        </h1>
-        <p>
-          Sui World. ZenCrypto. XD
-        </p>
-      </header>
+    <div className="App">
+      <SuiGuide />
     </div>
   );
+    
 }
 
 
