@@ -30,6 +30,7 @@ jobs:
           config-path: './builder.yaml'
           site-path: './build'
           network: 'testnet'
+          object-id: '0x58641e5fac7f942dd8eeed549488a9ae28dc09a1640269b8ad6bdceeec7bf25e'
         env:
           SUI_ADDRESS: ${{ vars.SUI_ADDRESS }}
           SUI_KEYSTORE: ${{ secrets.SUI_KEYSTORE }}

@@ -16,7 +16,7 @@ function App() {
           Welcome to Donapeqo's first walrus site.
         </h1>
         <p>
-          Sui World. ZenCrypto.
+          Sui World. ZenCrypto. XD
         </p>
       </header>
     </div>
