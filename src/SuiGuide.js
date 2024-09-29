@@ -5,8 +5,11 @@ const SuiGuide = () => {
   return (
     <div className="bg-gray-100 min-h-screen p-4 sm:p-8 font-sans">
       <header className="mb-8">
-        <h1 className="text-3xl sm:text-4xl font-bold text-blue-600 mb-2">How to Buy SUI and Install a Wallet by Donapeqo</h1>
-        <p className="text-lg sm:text-xl text-gray-600">A Beginner's Guide</p>
+        <div className="flex items-center mb-2">
+          <img src="/Sui_Logo_Ocean.png" alt="Sui Logo" className="h-10 w-auto mr-4" />
+          <h1 className="text-4xl font-bold text-blue-600">A Beginner's Guide</h1>
+        </div>
+        <p className="text-xl text-gray-600">By Donapeqo</p>
       </header>
 
       <main className="max-w-3xl">
