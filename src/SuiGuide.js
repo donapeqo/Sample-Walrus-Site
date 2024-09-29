@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Wallet, CreditCard, Download, ExternalLink } from 'lucide-react';
 
 const SuiGuide = () => {
+    useEffect(() => {
+        document.title = "SUI Guide by Donapeqo";
+      }, []);
   return (
+    
     <div className="bg-gray-100 min-h-screen p-4 sm:p-8 font-sans">
       <header className="mb-8">
         <div className="flex items-center mb-2">
